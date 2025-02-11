@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie - Fast Delivery</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background: #ff6600;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        #home {
+            text-align: center;
+            padding: 50px;
+            background: url('food-bg.jpg') no-repeat center center/cover;
+            color: white;
+        }
+        #home h2 {
+            font-size: 36px;
+        }
+        #home button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background: #ff6600;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        #menu {
+            text-align: center;
+            padding: 50px;
+            background: #fff;
+        }
+        .menu-item {
+            display: inline-block;
+            margin: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            background: #ff6600;
+            color: white;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Foodie</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Delicious Food, Delivered Fast!</h2>
+        <p>Order your favorite meals and enjoy doorstep delivery.</p>
+        <button>Order Now</button>
+    </section>
+    
+    <section id="menu">
+        <h2>Our Special Menu</h2>
+        <div class="menu-item">
+            <h3>Burger</h3>
+            <p>$5.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <h3>Pizza</h3>
+            <p>$8.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <h3>Pasta</h3>
+            <p>$7.49</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Foodie. All rights reserved.</p>
+    </footer>
+</body>
+</html>
