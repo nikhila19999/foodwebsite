@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background: #ff6600;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#home {
+    text-align: center;
+    padding: 50px;
+    background: url('food-bg.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+#home h2 {
+    font-size: 36px;
+}
+
+#home button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#home button:hover {
+    background: #e65c00;
+}
+
+#menu {
+    text-align: center;
+    padding: 50px;
+    background: #fff;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #ff6600;
+    color: white;
+    transition: 0.3s;
+}
+
+.menu-item:hover {
+    background: #e65c00;
+}
+
+.menu-item button {
+    padding: 8px 15px;
+    font-size: 16px;
+    background: white;
+    color: #ff6600;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu-item button:hover {
+    background: #fff0e0;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
